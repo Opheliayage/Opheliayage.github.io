@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yage Li's Personal Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #EAE6DA; color: #333; }
+    header { background-color: #AFAFAF; padding: 20px; text-align: center; }
+    nav ul { list-style: none; padding: 0; }
+    nav ul li { display: inline; margin: 0 10px; }
+    nav ul li a { text-decoration: none; color: #333; }
+    section { padding: 20px; }
+    .project { border: 1px solid #DDD; padding: 10px; margin: 10px 0; background-color: #F5F5F5; }
+    footer { text-align: center; padding: 10px; background-color: #AFAFAF; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yage Li's Personal Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About</h2>
+    <p>Yage Li<br>(86) 187-9265-7269<br>yage@nwafu.edu<br>Shaanxi, China</p>
+    <div id="photo-carousel">
+      <!-- 滚动照片的实现 -->
+    </div>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Northwest A&F University, China (09/2020-06/2024)</strong><br>Bachelor of Engineering in Environmental Science, GPA: 83.46/100, Major GPA: 3.82/4.00</p>
+    <p><strong>University of Arizona, US (09/2020-06/2024)</strong><br>Bachelor of Science in Environmental Science, GPA: 3.58/4.0</p>
+    <p><strong>University of Washington, US (09/2024-06/2028)</strong><br>PhD in Environmental Science</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Intelligent Farmland Monitoring System Based on AIoT</h3>
+      <p>项目负责人，设计农业监控系统APP，实现农业信息化和现代化。</p>
+    </div>
+    <div class="project">
+      <h3>Waste Valorization: Innovative High-Quality Treatment of Agricultural Solid Waste</h3>
+      <p>项目负责人，将农业废弃物转化为创新的碳基缓释肥料、通用有机肥料和特定的生物有机肥料。</p>
+    </div>
+    <div class="project">
+      <h3>Intelligent Irrigation: "Smart Entropy" Precision Agricultural Dynamic Irrigation System</h3>
+      <p>开发系统，实现农田机械和井的互联互通，辅助设备和井的数字化。</p>
+    </div>
+  </section>
+  <section id="research">
+    <h2>Research</h2>
+    <p>Survey on the Nutritional Contents of Zinc and Selenium in Wheat (01/2022-06/2022)</p>
+    <p>Oxidative Damage Mechanisms of Persistent Free Radicals from Photodegraded Microplastics in Earthworm Intestines (06/2022-11/2022)</p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2024 Yage Li. All rights reserved.</p>
+  </footer>
+</body>
+</html>
