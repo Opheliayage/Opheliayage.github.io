@@ -13,6 +13,16 @@
     section { padding: 20px; }
     .project { border: 1px solid #DDD; padding: 10px; margin: 10px 0; background-color: #F5F5F5; }
     footer { text-align: center; padding: 10px; background-color: #AFAFAF; }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+    .carousel img {
+      scroll-snap-align: center;
+      max-width: 100%;
+      margin: 10px;
+    }
   </style>
 </head>
 <body>
@@ -30,16 +40,20 @@
   </header>
   <section id="about">
     <h2>About</h2>
-    <p>Yage Li<br>(86) 187-9265-7269<br>yage@nwafu.edu<br>Shaanxi, China</p>
-    <div id="photo-carousel">
-      <!-- 滚动照片的实现 -->
+    <p>Yage Li<br>（86）187-9265-7269<br>yage@uw.edu<br>Shaanxi, China</p>
+    <div class="carousel">
+      <img src="/mnt/data/731722139527_.pic_hd.jpg" alt="Photo 1">
+      <img src="/mnt/data/741722139528_.pic_hd.jpg" alt="Photo 2">
+      <img src="/mnt/data/701722139522_.pic_hd.jpg" alt="Photo 3">
+      <img src="/mnt/data/691722139518_.pic_hd.jpg" alt="Photo 4">
+      <img src="/mnt/data/711722139523_.pic_hd.jpg" alt="Photo 5">
     </div>
   </section>
   <section id="education">
     <h2>Education</h2>
     <p><strong>Northwest A&F University, China (09/2020-06/2024)</strong><br>Bachelor of Engineering in Environmental Science, GPA: 83.46/100, Major GPA: 3.82/4.00</p>
     <p><strong>University of Arizona, US (09/2020-06/2024)</strong><br>Bachelor of Science in Environmental Science, GPA: 3.58/4.0</p>
-    <p><strong>University of Washington, US (09/2024-06/2028)</strong><br>PhD in Environmental Science</p>
+    <p><strong>University of Washington, US (09/2024-06/2028 Expected)</strong><br>PhD in Environmental Science</p>
   </section>
   <section id="projects">
     <h2>Projects</h2>
